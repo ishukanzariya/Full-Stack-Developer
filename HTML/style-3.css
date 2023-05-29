@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 120px;
+    margin-left: 10%;
+    width: 80%;
+    border: 1px solid lightgrey;
+    background-color: lightgray;
+}
+header #logo{
+    float: left;
+    height: 120px;
+    width: 30%;
+}
+header #logo h1{
+    color: red;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+header #nav{
+    height: 120px;
+    width: 50%;
+    float: right;
+}
+header a #home {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+header #nav a{
+    text-decoration: none;
+    color: red;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 100px;
+}
