@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>hover overflow hidden</title>
+        <style>
+            #back{
+                height: 70%;
+                width: 35%;
+                border: 1px solid black;
+                margin-left: 30%;
+                margin-top: 8%;
+                transition: 1.5s;
+                overflow: hidden;
+            }
+            #back:hover{
+                transform: scale(1.1);
+                background-color: black;
+            }
+            h6{
+                
+                font-size: -100px;
+                color:black;
+                text-align: center;
+                margin-top: 45%;
+                transition: 1.5s;
+            }
+            h6:hover{
+                transform: scale(4);
+                color: red;
+                text-shadow: 2px 2px 2px white;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="back">
+                <h6>Hover me</h6>
+        </div>
+    </body>
+</html>
